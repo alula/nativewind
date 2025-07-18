@@ -1,6 +1,6 @@
 {
   "version": "0.1.22",
-  "name": "react-native-css-interop",
+  "name": "@alula/react-native-css-interop",
   "description": "",
   "main": "dist/index",
   "types": "dist/index.d.ts",
@@ -15,7 +15,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/marklawlor/nativewind.git"
+    "url": "git+https://github.com/alula/nativewind.git"
   },
   "author": {
     "name": "Mark Lawlor",
@@ -23,7 +23,7 @@
   },
   "homepage": "https://nativewind.dev",
   "bugs": {
-    "url": "https://github.com/marklawlor/nativewind/issues"
+    "url": "https://github.com/alula/nativewind/issues"
   },
   "engines": {
     "node": ">=18"
