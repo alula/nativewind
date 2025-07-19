@@ -11,6 +11,10 @@
     "./jsx-dev-runtime": "./jsx-dev-runtime/index.js",
     "./jsx-runtime": "./jsx-runtime/index.js",
     "./package.json": "./package.json",
+    "./preset": "./dist/tailwind/index.js",
+    "./preset/*": "./dist/tailwind/*.js",
+    "./test": "./dist/test.js",
+    "./theme": "./dist/theme.js",
     "./types": "./types.d.ts"
   },
   "sideEffects": false,
