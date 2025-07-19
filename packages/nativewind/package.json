@@ -57,7 +57,7 @@
   "dependencies": {
     "comment-json": "^4.2.5",
     "debug": "^4.3.7",
-    "react-native-css-interop": "0.1.22"
+    "@alula/react-native-css-interop": "0.1.22"
   },
   "devDependencies": {
     "@tailwindcss/container-queries": "^0.1.1",
