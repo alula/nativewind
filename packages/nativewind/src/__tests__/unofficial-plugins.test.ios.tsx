@@ -1,4 +1,4 @@
-/** @jsxImportSource nativewind */
+/** @jsxImportSource @alula/nativewind */
 
 /**
  * This file has some examples of unofficial plugins used by the community.

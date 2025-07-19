@@ -1,4 +1,4 @@
-/** @jsxImportSource nativewind */
+/** @jsxImportSource @alula/nativewind */
 import { Button, Text, View } from "react-native";
 
 import { act, fireEvent, screen } from "@testing-library/react-native";

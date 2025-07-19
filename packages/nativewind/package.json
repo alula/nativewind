@@ -1,9 +1,18 @@
 {
-  "version": "4.1.23",
+  "version": "4.1.25",
   "name": "@alula/nativewind",
   "description": "Use Tailwindcss in your cross-platform React Native applications",
-  "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "exports": {
+    ".": "./dist/index.js",
+    "./babel": "./babel.js",
+    "./metro": "./dist/metro/index.js",
+    "./metro/*": "./dist/metro/*.js",
+    "./jsx-dev-runtime": "./jsx-dev-runtime/index.js",
+    "./jsx-runtime": "./jsx-runtime/index.js",
+    "./package.json": "./package.json",
+    "./types": "./types.d.ts"
+  },
   "sideEffects": false,
   "keywords": [
     "react-native",
@@ -57,7 +66,7 @@
   "dependencies": {
     "comment-json": "^4.2.5",
     "debug": "^4.3.7",
-    "@alula/react-native-css-interop": "0.1.22"
+    "react-native-css-interop": "npm:@alula/react-native-css-interop@0.1.23"
   },
   "devDependencies": {
     "@tailwindcss/container-queries": "^0.1.1",

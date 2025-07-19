@@ -1,4 +1,4 @@
-/** @jsxImportSource nativewind */
+/** @jsxImportSource @alula/nativewind */
 import { Platform, View } from "react-native";
 
 import tailwindcssContainerQueries from "@tailwindcss/container-queries";

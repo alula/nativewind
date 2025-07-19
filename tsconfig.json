@@ -6,5 +6,7 @@
     "noUnusedLocals": true,
     "removeComments": true,
     "esModuleInterop": true,
+    "module": "Node16",
+    "moduleResolution": "Node16"
   }
 }

@@ -1,4 +1,4 @@
-/** @jsxImportSource nativewind */
+/** @jsxImportSource @alula/nativewind */
 import { ViewProps } from "react-native";
 
 import { Metrics, SafeAreaProvider } from "react-native-safe-area-context";

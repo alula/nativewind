@@ -3,7 +3,7 @@
   "fixed": [],
   "linked": [],
   "access": "public",
-  "baseBranch": "main",
+  "baseBranch": "alula/npm",
   "updateInternalDependencies": "patch",
   "ignore": []
 }

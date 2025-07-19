@@ -1,9 +1,23 @@
 {
-  "version": "0.1.22",
+  "version": "0.1.23",
   "name": "@alula/react-native-css-interop",
   "description": "",
-  "main": "dist/index",
   "types": "dist/index.d.ts",
+  "exports": {
+    ".": "./dist/index.js",
+    "./babel": "./babel.js",
+    "./css-to-rn": "./dist/css-to-rn/index.js",
+    "./css-to-rn/functions": "./dist/css-to-rn/functions.js",
+    "./css-to-rn/functions-web": "./dist/css-to-rn/functions-web.js",
+    "./jsx-dev-runtime": "./dist/runtime/jsx-dev-runtime.js",
+    "./jsx-runtime": "./dist/runtime/jsx-runtime.js",
+    "./metro": "./dist/metro/index.js",
+    "./package.json": "./package.json",
+    "./test": "./dist/test/index.js",
+    "./test/setup": "./dist/test/setup.js",
+    "./test/setupAfterEnv": "./dist/test/setupAfterEnv.js",
+    "./types": "./types.d.ts"
+  },
   "sideEffects": false,
   "keywords": [
     "react-native",
