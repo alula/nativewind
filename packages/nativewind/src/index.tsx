@@ -10,7 +10,7 @@ export {
   useSafeAreaEnv,
   useUnstableNativeVariable,
   vars,
-} from "react-native-css-interop";
+} from "@alula/react-native-css-interop";
 
 export { useColorScheme } from "./stylesheet";
 export { createElement } from "react";

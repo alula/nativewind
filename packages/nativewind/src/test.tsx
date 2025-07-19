@@ -10,7 +10,7 @@ import {
   resetData,
   screen,
   setupAllComponents,
-} from "react-native-css-interop/test";
+} from "@alula/react-native-css-interop/test";
 import tailwind, { Config } from "tailwindcss";
 
 import { cssToReactNativeRuntimeOptions } from "./metro/common";
@@ -23,7 +23,7 @@ export {
   within,
   native,
   INTERNAL_SET,
-} from "react-native-css-interop/test";
+} from "@alula/react-native-css-interop/test";
 
 export * from "./index";
 

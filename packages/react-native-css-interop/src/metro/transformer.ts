@@ -37,7 +37,7 @@ export async function transform(
    * Since the style file only uses a single import, we can transform a fake file to get the
    * dependencies and function mapping
    */
-  const fakeFile = `import { injectData } from "react-native-css-interop/dist/runtime/native/styles";injectData({});`;
+  const fakeFile = `import { injectData } from "@alula/react-native-css-interop/dist/runtime/native/styles";injectData({});`;
   const result = await transform(
     config,
     projectRoot,

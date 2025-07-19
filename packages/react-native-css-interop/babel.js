@@ -6,7 +6,7 @@ module.exports = function () {
         "@babel/plugin-transform-react-jsx",
         {
           runtime: "automatic",
-          importSource: "react-native-css-interop",
+          importSource: "@alula/react-native-css-interop",
         },
       ],
       "react-native-reanimated/plugin",

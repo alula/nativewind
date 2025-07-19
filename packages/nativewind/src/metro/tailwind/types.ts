@@ -1,4 +1,4 @@
-import { GetCSSForPlatformOnChange } from "react-native-css-interop/metro";
+import { GetCSSForPlatformOnChange } from "@alula/react-native-css-interop/metro";
 
 export interface TailwindCliOptions {
   input: string;

@@ -1,7 +1,7 @@
 /** @jsxImportSource @alula/nativewind */
 import { View } from "react-native";
 
-import { verifyFlag } from "react-native-css-interop";
+import { verifyFlag } from "@alula/react-native-css-interop";
 
 import { render } from "../test";
 

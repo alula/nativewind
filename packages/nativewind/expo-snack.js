@@ -1,6 +1,6 @@
 import { useState, useEffect, Fragment, createElement } from "react";
 import RN, { Platform } from "react-native";
-const { StyleSheet, cssInterop } = require("react-native-css-interop");
+const { StyleSheet, cssInterop } = require("@alula/react-native-css-interop");
 const jsx = require("@alula/nativewind/jsx-runtime");
 const originalJSX = require("react/jsx-runtime");
 

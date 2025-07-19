@@ -11,5 +11,5 @@ export const {
   platformColor,
   getPixelSizeForLayoutSize,
 } = isNative
-  ? require("react-native-css-interop/css-to-rn/functions")
-  : require("react-native-css-interop/css-to-rn/functions-web");
+  ? require("@alula/react-native-css-interop/css-to-rn/functions")
+  : require("@alula/react-native-css-interop/css-to-rn/functions-web");

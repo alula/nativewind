@@ -5,7 +5,7 @@ import type { MetroConfig } from "metro-config";
 import {
   withCssInterop,
   WithCssInteropOptions,
-} from "react-native-css-interop/metro";
+} from "@alula/react-native-css-interop/metro";
 
 import { cssToReactNativeRuntimeOptions } from "./common";
 import { tailwindCli, tailwindConfig } from "./tailwind";

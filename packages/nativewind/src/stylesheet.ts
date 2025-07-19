@@ -1,7 +1,7 @@
 import {
   StyleSheet,
   useColorScheme as useCSSColorScheme,
-} from "react-native-css-interop";
+} from "@alula/react-native-css-interop";
 
 export function useColorScheme() {
   const colorScheme = useCSSColorScheme();

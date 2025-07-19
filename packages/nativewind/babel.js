@@ -1,1 +1,1 @@
-module.exports = require("react-native-css-interop/babel");
+module.exports = require("@alula/react-native-css-interop/babel");

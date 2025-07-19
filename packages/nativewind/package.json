@@ -2,19 +2,40 @@
   "version": "4.1.25",
   "name": "@alula/nativewind",
   "description": "Use Tailwindcss in your cross-platform React Native applications",
-  "types": "dist/index.d.ts",
+  "main": "./dist/src/index.js",
+  "types": "./dist/src/index.d.ts",
   "exports": {
-    ".": "./dist/index.js",
+    ".": {
+      "types": "./dist/src/index.d.ts",
+      "default": "./dist/src/index.js"
+    },
     "./babel": "./babel.js",
-    "./metro": "./dist/metro/index.js",
-    "./metro/*": "./dist/metro/*.js",
-    "./jsx-dev-runtime": "./jsx-dev-runtime/index.js",
-    "./jsx-runtime": "./jsx-runtime/index.js",
+    "./dist/*": "./dist/*",
+    "./metro": {
+      "types": "./dist/src/metro/index.d.ts",
+      "default": "./dist/src/metro/index.js"
+    },
+    "./metro/*": {
+      "types": "./dist/src/metro/*.d.ts",
+      "default": "./dist/src/metro/*.js"
+    },
+    "./jsx-dev-runtime": {
+      "types": "./jsx-dev-runtime/index.d.ts",
+      "default": "./jsx-dev-runtime/index.js"
+    },
+    "./jsx-runtime": {
+      "types": "./jsx-runtime/index.d.ts",
+      "default": "./jsx-runtime/index.js"
+    },
     "./package.json": "./package.json",
-    "./preset": "./dist/tailwind/index.js",
-    "./preset/*": "./dist/tailwind/*.js",
-    "./test": "./dist/test.js",
-    "./theme": "./dist/theme.js",
+    "./preset": {
+      "types": "./dist/src/tailwind/index.d.ts",
+      "default": "./dist/src/tailwind/index.js"
+    },
+    "./preset/*": {
+      "types": "./dist/src/tailwind/*.d.ts",
+      "default": "./dist/src/tailwind/*.js"
+    },
     "./types": "./types.d.ts"
   },
   "sideEffects": false,
@@ -41,7 +62,7 @@
     "url": "https://github.com/alula/nativewind/issues"
   },
   "engines": {
-    "node": ">=16"
+    "node": ">=20"
   },
   "scripts": {
     "test": "jest",
@@ -70,7 +91,7 @@
   "dependencies": {
     "comment-json": "^4.2.5",
     "debug": "^4.3.7",
-    "react-native-css-interop": "npm:@alula/react-native-css-interop@0.1.23"
+    "@alula/react-native-css-interop": "0.1.23"
   },
   "devDependencies": {
     "@tailwindcss/container-queries": "^0.1.1",

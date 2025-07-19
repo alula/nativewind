@@ -2,7 +2,7 @@
 import { View } from "react-native";
 
 import { act, screen } from "@testing-library/react-native";
-import { colorScheme } from "react-native-css-interop";
+import { colorScheme } from "@alula/react-native-css-interop";
 
 import { render } from "../test";
 

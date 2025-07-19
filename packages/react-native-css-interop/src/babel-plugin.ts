@@ -14,7 +14,7 @@ import {
 } from "@babel/types";
 
 const importFunction = "createInteropElement";
-const importModule = "react-native-css-interop";
+const importModule = "@alula/react-native-css-interop";
 const importAs = "ReactNativeCSSInterop";
 
 const allowedFileRegex =

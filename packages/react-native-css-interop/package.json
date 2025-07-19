@@ -2,20 +2,52 @@
   "version": "0.1.23",
   "name": "@alula/react-native-css-interop",
   "description": "",
-  "types": "dist/index.d.ts",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "exports": {
-    ".": "./dist/index.js",
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
     "./babel": "./babel.js",
-    "./css-to-rn": "./dist/css-to-rn/index.js",
-    "./css-to-rn/functions": "./dist/css-to-rn/functions.js",
-    "./css-to-rn/functions-web": "./dist/css-to-rn/functions-web.js",
-    "./jsx-dev-runtime": "./dist/runtime/jsx-dev-runtime.js",
-    "./jsx-runtime": "./dist/runtime/jsx-runtime.js",
-    "./metro": "./dist/metro/index.js",
+    "./dist/*": "./dist/*",
+    "./css-to-rn": {
+      "types": "./dist/css-to-rn/index.d.ts",
+      "default": "./dist/css-to-rn/index.js"
+    },
+    "./css-to-rn/functions": {
+      "types": "./dist/css-to-rn/functions.d.ts",
+      "default": "./dist/css-to-rn/functions.js"
+    },
+    "./css-to-rn/functions-web": {
+      "types": "./dist/css-to-rn/functions-web.d.ts",
+      "default": "./dist/css-to-rn/functions-web.js"
+    },
+    "./jsx-dev-runtime": {
+      "types": "./dist/runtime/jsx-dev-runtime.d.ts",
+      "default": "./dist/runtime/jsx-dev-runtime.js"
+    },
+    "./jsx-runtime": {
+      "types": "./dist/runtime/jsx-runtime.d.ts",
+      "default": "./dist/runtime/jsx-runtime.js"
+    },
+    "./metro": {
+      "types": "./dist/metro/index.d.ts",
+      "default": "./dist/metro/index.js"
+    },
     "./package.json": "./package.json",
-    "./test": "./dist/test/index.js",
-    "./test/setup": "./dist/test/setup.js",
-    "./test/setupAfterEnv": "./dist/test/setupAfterEnv.js",
+    "./test": {
+      "types": "./dist/test/index.d.ts",
+      "default": "./dist/test/index.js"
+    },
+    "./test/setup": {
+      "types": "./dist/test/setup.d.ts",
+      "default": "./dist/test/setup.js"
+    },
+    "./test/setupAfterEnv": {
+      "types": "./dist/test/setupAfterEnv.d.ts",
+      "default": "./dist/test/setupAfterEnv.js"
+    },
     "./types": "./types.d.ts"
   },
   "sideEffects": false,
@@ -40,7 +72,7 @@
     "url": "https://github.com/alula/nativewind/issues"
   },
   "engines": {
-    "node": ">=18"
+    "node": ">=20"
   },
   "scripts": {
     "test": "jest",
